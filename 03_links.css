@@ -1,0 +1,32 @@
+a {
+	color: rgb(40, 40, 212); 
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; 
+}
+a:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; 
+    background-color: black; 
+    transition: width 0.3s; 
+}
+a:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; 
+    background-color: red; 
+    transition: width 0.3s; 
+}
+
+a:visited {
+    color: #822ed1;
+}
