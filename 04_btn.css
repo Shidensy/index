@@ -12,7 +12,9 @@
     padding-right: 5px;
     transition: .5s;
     border-radius: 0px;
-  }
+    margin-bottom: 20px;
+}
+
 .btn:hover {
     top: 5px;
     transition: .5s;
@@ -20,10 +22,11 @@
     border: #10FF58 1px solid;
     border-radius: 10px;
     cursor: pointer;
-  }
+}
+
 .btn:active {
     color: #000;
     border: #1A1A1A 1px solid;
     transition: .07s;
     background-color: #FFF;
-  }
+}
