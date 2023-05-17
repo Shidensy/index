@@ -78,7 +78,7 @@ th:first-child, td:first-child {
     max-width: 900px;
 }
 
-@media (max-width: 520px){
+@media (max-width: 412px){
     .info-text{
         display: block;
         text-align: center;
