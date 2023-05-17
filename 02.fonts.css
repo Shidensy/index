@@ -80,12 +80,14 @@ th:first-child, td:first-child {
 
 @media (max-width: 520px){
     .info-text{
-        vertical-align: top;
-        display: inline-block;
+        display: block;
         text-align: center;
+        margin-left: 0px;
     }
 
     .img {
         float: none;
+        display: block;
     }
 }
+
