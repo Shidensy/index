@@ -28,5 +28,5 @@ a:hover:after {
 }
 
 a:visited {
-    color: #822ed1;
+    color: rgb(40, 40, 212); 
 }
